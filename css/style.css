@@ -111,7 +111,7 @@ transition: .5s;
 .apple{
     background:linear-gradient( rgba(0 , 0 , 0 ,.2 ) , rgba(0 , 0 , 0 ,.2 )) , url("https://themearth.com/demo/html/restaura/view/assets/img/banner61.jpg");
     background-size: cover;
-    height: 80vh;
+    height: 60vh;
     width: 100%;
 
 }
