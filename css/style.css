@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@300;400&family=Rubik+Distressed&family=Seaweed+Script&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+    color: red;
+    text-transform: uppercase;
+    font-family: 'Seaweed Script', cursive;
+}
+.navbar-brand:hover{
+  
+    color: red;
+}
+
+.nav-link{
+    color: black;
+     margin: 0 10px;
+     text-transform: uppercase;
+     font-family: 'Oswald', sans-serif;
+}
+.nav-item:hover{
+    color: black;
+
+}
+.search{
+    height: 40px;
+    width: 80%;
+    border-radius: 60px;
+    outline: none;
+    margin-right: -35px;
+     border: 2px solid rgb(215, 46, 46);
+}
+.btn_search{
+    height: 40px;
+    width: 40%;
+    outline: none;
+    border: none;
+    background-color: rgb(215, 46, 46) ;
+    color: aliceblue;
+    font-weight: 700;
+    border-radius: 60px;
+}
