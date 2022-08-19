@@ -1,47 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@300;400&family=Rubik+Distressed&family=Seaweed+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&family=Oswald:wght@300;400&family=Rubik+Distressed&family=Seaweed+Script&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-.navbar-brand{
-    font-size: 2rem;
+.navbar-brand {
+  font-size: 2rem;
+  color: red;
+  text-transform: uppercase;
+  font-family: "Seaweed Script", cursive;
+}
+.navbar-toggler{
     color: red;
-    text-transform: uppercase;
-    font-family: 'Seaweed Script', cursive;
+border: none;
+outline: none;
 }
-.navbar-brand:hover{
-  
+.navbar-toggler:hover{
     color: red;
+border: none;
+outline: none;
+}
+.navbar-brand:hover {
+  color: red;
+}
+.nav_toogler {
+  outline: none;
+  background: red;
+}
+.nav-link {
+  color: black;
+  margin: 0 10px;
+  text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
+}
+.nav-item:hover {
+  color: black;
+}
+.search {
+  height: 40px;
+  width: 80%;
+  border-radius: 60px;
+  outline: none;
+  margin-right: -35px;
+  border: 2px solid rgb(215, 46, 46);
+}
+.btn_search {
+  height: 40px;
+  width: 40%;
+  outline: none;
+  border: none;
+  background-color: rgb(215, 46, 46);
+  color: aliceblue;
+  font-weight: 700;
+  border-radius: 60px;
+}
+/* ******************main section****************** */
+.main {
+  background: url("https://themearth.com/demo/html/restaura/view/assets/img/banner2.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  background-position: 50% 50%;
 }
 
-.nav-link{
-    color: black;
-     margin: 0 10px;
-     text-transform: uppercase;
-     font-family: 'Oswald', sans-serif;
+.main h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
 }
-.nav-item:hover{
-    color: black;
-
+.main h2 span {
+  color: red;
 }
-.search{
-    height: 40px;
-    width: 80%;
-    border-radius: 60px;
-    outline: none;
-    margin-right: -35px;
-     border: 2px solid rgb(215, 46, 46);
-}
-.btn_search{
-    height: 40px;
-    width: 40%;
-    outline: none;
+.banner_button{
+    height: 45px;
+    width: 35%;
     border: none;
-    background-color: rgb(215, 46, 46) ;
-    color: aliceblue;
-    font-weight: 700;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 18px;
     border-radius: 60px;
+}
+.banner_button:hover{
+   transition: .5s;
+    background-color: rgb(191, 71, 71);
+   
+}
+
+/* teadnding section */
+.card:hover{
+    box-shadow: 0px -2px 31px -3px rgba(0,0,0,0.67);
+-webkit-box-shadow: 0px -2px 31px -3px rgba(0,0,0,0.67);
+-moz-box-shadow: 0px -2px 31px -3px rgba(0,0,0,0.67);
+transition: .5s;
+}
+.card-body img{
+ width: 80%;
+ height: 230px;
+ object-fit: cover;
+}
+/* about section */
+.about_image{
+    width: auto;
+    height: 230px;
+    object-fit: cover;
+}
+/* apple */
+.apple{
+    background:linear-gradient( rgba(0 , 0 , 0 ,.2 ) , rgba(0 , 0 , 0 ,.2 )) , url("https://themearth.com/demo/html/restaura/view/assets/img/banner61.jpg");
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+
+}
+.apple_heading h2{
+    font-family: "Seaweed Script", cursive;
 }
