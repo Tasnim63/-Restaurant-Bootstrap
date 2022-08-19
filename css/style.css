@@ -118,3 +118,28 @@ transition: .5s;
 .apple_heading h2{
     font-family: "Seaweed Script", cursive;
 }
+
+.footer{
+    background-color: black;
+    color: wheat;
+}
+.footer input{
+    height: 45px;
+    width: 55%;
+    border: 2px solid white;
+     outline: none;
+     background: black;
+     color: white;
+     margin-top: 20px;
+     font-weight: 600;
+}
+.footer::placeholder{
+    color: white;
+}
+.submit_btn{
+    height: 45px;
+    width: 100px;
+    background-color: wheat;
+    border: 2px solid white;
+    font-weight: 600;
+}
